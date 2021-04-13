@@ -1,1 +1,28 @@
 %This is LaTeX file for Xiaobo.
+\documentclass{ctexart}
+
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\pagestyle{fancy}
+\chead{第十章{ }{ }多元函数的极限与连续}
+\rhead{·\thepage ·}
+\renewcommand{\headrulewidth}{0.75pt}
+\linespread{1}
+\begin{document}
+
+
+\begin{flushleft}
+{\heiti 定理3}{ }{ }{ }{$R^n$}{\kaishu 中有界闭集{$D$}上的连续函数{$f(X)$}必在{$D$}上一致连续，即任给{$\varepsilon>0$}，存在{$\delta >0$}，使得当{$X_1$}，{$X_2\in D$}且{$\mid X_1-X_2\mid <\delta$}时，有}\par
+\end{flushleft}
+\begin{center}
+{$\mid f(X_1)-f(X_2)\mid <\varepsilon$}\par
+\end{center}
+
+
+{\heiti 证}{ }{ }{ }{用反证法，设{$f(X)$}在{$D$}上不一致连续，则存在{$\varepsilon>0$}，使得对任何正整数{$m$}，存在{$X'_m$}，{$X''_m\in D$}，满足}\par
+\begin{center}
+{$\mid X'_m-X''_m\mid <{\frac{1}{m}}$，{$\mid f(X'_m)-f(X''_m)\mid \geqslant\varepsilon $}}\par
+\end{center}
+{由{$D$}的列紧性可知存在{$\{X'_m\}$}的子点列{$\{X''_m\}$}和}
+
+\end{document}
